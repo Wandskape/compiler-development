@@ -1,0 +1,11 @@
+main
+{
+declare integer x;
+declare integer y;
+declare integer i;
+x = 1;
+y = 5;
+i = (x + y) * (x - y);
+print 'hi';
+return 0;
+};

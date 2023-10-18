@@ -1,0 +1,69 @@
+﻿Сборка начата 29.09.2023 23:14:41.
+Уровень детализации журнала: Normal.     1>Проект "F:\2course\sem3\kpo\Lab17\Lab17\Lab17.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "F:\2course\sem3\kpo\Lab17\x64\Debug\".
+         Создание каталога "x64\Debug\Lab17.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\Lab17.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "F:\vcpkg\vcpkg\installed\x64-windows\"
+         Using normalized configuration "Debug"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"F:\vcpkg\vcpkg\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Analize.cpp Check.cpp Error.cpp FST.cpp In.cpp IT.cpp Lab17.cpp Log.cpp LT.cpp Out.cpp Parm.cpp
+         Analize.cpp
+     1>F:\2course\sem3\kpo\Lab17\Lab17\Analize.cpp(522,40): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+     1>F:\2course\sem3\kpo\Lab17\Lab17\Analize.cpp(525,58): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+     1>F:\2course\sem3\kpo\Lab17\Lab17\Analize.cpp(589,48): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+         Check.cpp
+         Error.cpp
+         FST.cpp
+     1>F:\2course\sem3\kpo\Lab17\Lab17\FST.cpp(149,31): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         In.cpp
+     1>F:\2course\sem3\kpo\Lab17\Lab17\In.cpp(100,35): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         IT.cpp
+         Lab17.cpp
+         Log.cpp
+     1>F:\2course\sem3\kpo\Lab17\Lab17\Log.cpp(64,9): warning C4101: f: неиспользованная локальная переменная
+         LT.cpp
+         Out.cpp
+         Parm.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\2course\sem3\kpo\Lab17\x64\Debug\Lab17.exe" /INCREMENTAL /ILK:"x64\Debug\Lab17.ilk" /NOLOGO /LIBPATH:"F:\vcpkg\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"F:\vcpkg\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "F:\vcpkg\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\2course\sem3\kpo\Lab17\x64\Debug\Lab17.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\2course\sem3\kpo\Lab17\x64\Debug\Lab17.lib" /MACHINE:X64 x64\Debug\Analize.obj
+         x64\Debug\Check.obj
+         x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         x64\Debug\Lab17.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\Out.obj
+         x64\Debug\Parm.obj
+         Lab17.vcxproj -> F:\2course\sem3\kpo\Lab17\x64\Debug\Lab17.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\vcpkg\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\2course\sem3\kpo\Lab17\x64\Debug\Lab17.exe" "F:\vcpkg\vcpkg\installed\x64-windows\debug\bin" "x64\Debug\Lab17.tlog\Lab17.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
+         "pwsh.exe" не является внутренней или внешней
+         командой, исполняемой программой или пакетным файлом.
+         Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\vcpkg\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\2course\sem3\kpo\Lab17\x64\Debug\Lab17.exe" "F:\vcpkg\vcpkg\installed\x64-windows\debug\bin" "x64\Debug\Lab17.tlog\Lab17.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"" с кодом 9009.
+         "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "F:\vcpkg\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\2course\sem3\kpo\Lab17\x64\Debug\Lab17.exe" "F:\vcpkg\vcpkg\installed\x64-windows\debug\bin" "x64\Debug\Lab17.tlog\Lab17.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Lab17.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Lab17.tlog\Lab17.lastbuildstate".
+     1>Сборка проекта "F:\2course\sem3\kpo\Lab17\Lab17\Lab17.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "F:\2course\sem3\kpo\Lab17\Lab17\Lab17.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         F:\2course\sem3\kpo\Lab17\Lab17\Analize.cpp(522,40): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+         F:\2course\sem3\kpo\Lab17\Lab17\Analize.cpp(525,58): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+         F:\2course\sem3\kpo\Lab17\Lab17\Analize.cpp(589,48): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+         F:\2course\sem3\kpo\Lab17\Lab17\FST.cpp(149,31): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         F:\2course\sem3\kpo\Lab17\Lab17\In.cpp(100,35): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         F:\2course\sem3\kpo\Lab17\Lab17\Log.cpp(64,9): warning C4101: f: неиспользованная локальная переменная
+
+    Предупреждений: 6
+    Ошибок: 0
+
+Прошло времени 00:00:06.41

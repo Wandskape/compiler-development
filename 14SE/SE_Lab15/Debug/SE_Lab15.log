@@ -1,0 +1,10 @@
+﻿  Error.cpp
+  In.cpp
+C:\Users\Asus\Desktop\14SE\SE_Lab15\In.cpp(28,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\14SE\SE_Lab15\In.cpp(55,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Asus\Desktop\14SE\SE_Lab15\In.cpp(73,25): warning C4018: <: несоответствие типов со знаком и без знака
+  Log.cpp
+  Parm.cpp
+  SE_Lab15.cpp
+  Создание кода...
+  SE_Lab15.vcxproj -> C:\Users\Asus\Desktop\14SE\Debug\SE_Lab15.exe
